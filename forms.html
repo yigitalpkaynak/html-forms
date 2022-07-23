@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname">Soyadınız</label>
+        <input type="text" id="surname" />
+      </div>
+
+      <div>
+        <label for="intro">Kendini anlat</label>
+        <textarea id="intro" cols="20" rows="10"></textarea>
+      </div>
+
+      <div>
+        <p>En sevdiğiniz yazılım dili nedir?</p>
+        <input type="radio" id="html" name="programlama" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="programlama" />
+        <label for="css">CSS</label>
+
+        <input type="radio" id="js" name="programlama" />
+        <label for="js">JAVASCRIPT</label>
+      </div>
+
+      <div>
+        <p>En sevdiğiniz yazılım dili nedir?</p>
+        <input type="checkbox" id="html2" />
+        <label for="html2">HTML</label>
+
+        <input type="checkbox" id="css2" />
+        <label for="css2">CSS</label>
+
+        <input type="checkbox" id="js2" />
+        <label for="js2">JAVASCRIPT</label>
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select id="cities">
+          <option value="41">Kocaeli</option>
+          <option value="16">Bursa</option>
+          <option value="34">İstanbul</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="email" id="eposta" />
+        <label for="eposta">Email</label>
+      </div>
+
+      <div>
+        <input type="password" id="parola" />
+        <label for="parola">Parola</label>
+      </div>
+
+      <div>
+        <label for="birthday">Doğum Tarihi</label>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+
+      <div>
+        <label for="myfile">Dosya seçiniz:</label>
+        <input type="file" id="myfile" name="myfile" />
+      </div>
+
+      <div>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5" />
+      </div>
+
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
